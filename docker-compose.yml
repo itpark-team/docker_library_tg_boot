@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  javaapp:
+    build: ./javaapp
+    restart: always
+    command: sh -c "java -jar app.jar"
